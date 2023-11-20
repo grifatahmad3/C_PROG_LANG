@@ -4,4 +4,4 @@ project(C_PROG_LANG C)
 set(CMAKE_C_STANDARD 90)
 
 add_executable(C_PROG_LANG
-        hello.c)
+        hello2.c) #Add only the file needed
