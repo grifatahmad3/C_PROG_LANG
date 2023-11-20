@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/Poseidon/C_PROG_LANG/cmake-build-debug/
 
 build cmake_object_order_depends_target_C_PROG_LANG: phony || CMakeFiles/C_PROG_LANG.dir
 
-build CMakeFiles/C_PROG_LANG.dir/hello2.c.obj: C_COMPILER__C_PROG_LANG_unscanned_Debug C$:/Users/Poseidon/C_PROG_LANG/hello2.c || cmake_object_order_depends_target_C_PROG_LANG
-  DEP_FILE = CMakeFiles\C_PROG_LANG.dir\hello2.c.obj.d
+build CMakeFiles/C_PROG_LANG.dir/myprog.c.obj: C_COMPILER__C_PROG_LANG_unscanned_Debug C$:/Users/Poseidon/C_PROG_LANG/myprog.c || cmake_object_order_depends_target_C_PROG_LANG
+  DEP_FILE = CMakeFiles\C_PROG_LANG.dir\myprog.c.obj.d
   FLAGS = -g -std=gnu90 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\C_PROG_LANG.dir
   OBJECT_FILE_DIR = CMakeFiles\C_PROG_LANG.dir
@@ -63,7 +63,7 @@ build CMakeFiles/C_PROG_LANG.dir/hello2.c.obj: C_COMPILER__C_PROG_LANG_unscanned
 #############################################
 # Link the executable C_PROG_LANG.exe
 
-build C_PROG_LANG.exe: C_EXECUTABLE_LINKER__C_PROG_LANG_Debug CMakeFiles/C_PROG_LANG.dir/hello2.c.obj
+build C_PROG_LANG.exe: C_EXECUTABLE_LINKER__C_PROG_LANG_Debug CMakeFiles/C_PROG_LANG.dir/myprog.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C_PROG_LANG.dir
