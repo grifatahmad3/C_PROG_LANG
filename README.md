@@ -5,4 +5,5 @@ Format: UNIT_EXNUM_PAGE.c
 
 Example: Exercise 2-2, page 42, will be named: 2_2_42.c
 
-Added to windows
+Added to windows 
+Added to laptop
