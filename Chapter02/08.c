@@ -22,10 +22,17 @@ unsigned rightrot(unsigned x, int n){
     return x;
 }
 
+unsigned rightrot2(unsigned x, int n){
+    /*Solution from the Open University guidebook*/
+    return ((x>>n) | (x << (BITS-n)));
+}
+
 int main(){
     printInBinary(15);
     putchar('\n');
     printInBinary(rightrot(15, 2));
+    putchar('\n');
+    printInBinary(rightrot2(15, 2));
     putchar('\n');
     return 0;
 }
